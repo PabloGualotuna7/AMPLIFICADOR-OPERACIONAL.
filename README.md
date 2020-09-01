@@ -32,7 +32,7 @@
 
 Actividades desarrolladas a lo largo de la practica de laboratorio.
 
-![](https://github.com/PabloGualotuna7/INDUCTOR-Y-CAPACITOR/blob/master/img/Cronograma%201.png)
+![](https://github.com/PabloGualotuna7/AMPLIFICADOR-OPERACIONAL./blob/master/img/Cronograma.png)
 
 ### 13. BIBLIOGRAFÍA 
 
