@@ -14,6 +14,57 @@ El problema de esta práctica es verificar el principio de funcionamiento de un 
 
 ### 3. MARCO TEÓRICO 
 
+¿Qué es un Amplificador operacional?
+
+A menudo conocido opamp por sus siglas en inglés (operational amplifier) es un dispositivo amplificador electrónico de alta ganancia acoplado en corriente continua que tiene dos entradas y una salida. En esta configuración, la salida del dispositivo es, generalmente, de cientos de miles de veces mayor que la diferencia de potencial entre sus entradas.
+
+
+Estructura: El símbolo de un amplificador es el mostrado en la siguiente figura:
+
+
+
+Los terminales son:
+
+· V+: entrada no inversora
+
+· V-: entrada inversora
+
+· VOUT: salida
+
+· VS+: alimentación positiva
+
+· VS-: alimentación negativa
+
+Los terminales de alimentación pueden recibir diferentes nombres, por ejemplos en los A.O basados en FET VDD y VSS respectivamente. Para los basados en BJT son VCC y VEE. Normalmente los pines de alimentación son omitidos en los diagramas eléctricos por claridad.
+
+Configuraciones básicas del amplificador operacional: Los amplificadores operacionales se pueden conectar según dos circuitos amplificadores básicos: las configuraciones (1) inversora y (2) no inversora. Casi todos los demás circuitos con amplificadores operacionales están basados, de alguna forma, en estas dos configuraciones básicas. Además, existen variaciones estrechamente relacionadas de estos dos circuitos, más otro circuito básico que es una combinación de los dos primeros: el amplificador diferencial.
+
+* Amplificador inversor: La configuración básica del AO. El amplificador inversor. En este circuito, la entrada (+) está a masa, y la señal se aplica a la entrada (-) a través de R1, con realimentación desde la salida a través de R2.
+
+
+
+Amplificador no inversor: En este circuito, la tensión Vi se aplica a la entrada (+), y una fracción de la señal de salida, Vo, se aplica a la entrada (-) a través del divisor de tensión R1 – R2. Puesto que, no fluye corriente de entrada en ningún terminal de entrada, y ya que Vd = 0, la tensión en R1 será igual a Vi.
+
+
+
+Los Amplificadores operacionales se pueden encontrar:
+
+1 operacional en un encapsulado de 8 pines, como es el UA741.
+2 operacionales en un encapsulado de 8 pines, como el LM1458.
+4 operacionales en un encapsulado de 14 pines, como es la LM324.
+
+Características:
+
+* El A.O ideal tiene una ganancia infinita, una impedancia de entrada infinita, un ancho de banda también infinito, una impedancia de salida nula, un tiempo de respuesta nulo y ningún ruido. Como la impedancia de entrada es infinita también se dice que las corrientes de entrada son cero.
+
+* Parámetro Valor ideal Valor real Zi ∞ 1 MΩ Zo 0 100 Ω Bw ∞ 1 MHz Av ∞ 100.000 Ac 0
+
+Nota: Los valores reales dependen del modelo, estos valores son genéricos y son una referencia. Si van a usarse amplificadores operacionales, es mejor consultar el datasheet o características del fabricante.
+
+Análisis: Para analizar un circuito en el que haya A.O. puede usarse cualquier método, pero uno habitual es: 1. Comprobar si tiene realimentación negativa 2. Si tiene realimentación negativa se pueden aplicar las reglas del apartado anterior 3. Definir las corrientes en cada una de las ramas del circuito 4. Aplicar el método de los nodos en todos los nodos del circuito excepto en los de salida de los amplificadores (porque en principio no se puede saber la corriente que sale de ellos) 5. Aplicando las reglas del apartado 2 resolver las ecuaciones para despejar la tensión en los nodos donde no se conozca.
+
+
+
 ### 4. DIAGRAMAS
 
 Circuitos a analizar
