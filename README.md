@@ -85,7 +85,7 @@ simultáneamente las señales de entrada y salida en un osciloscopio.
 
 2.- Determinar y analizar la relación entre las señales de entrada y salida en cada uno de los circuitos indicados en la figura 1.
 
-3.-Muestrar resultados gráficos.
+3.-Mostrar resultados gráficos.
 
 ### 7. ANALSIS DE RESULTADOS
 
@@ -148,7 +148,7 @@ diferencial.
 
 Esquema de un circuito con Amplificador de instrumentación.
 
-![](https://github.com/PabloGualotuna7/AMPLIFICADOR OPERACIONAL./blob/master/img/Imagen%201.png)
+![](https://github.com/PabloGualotuna7/AMPLIFICADOR-OPERACIONAL./blob/master/img/Imagen.png)
 
 Figura 8.
 
