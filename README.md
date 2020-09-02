@@ -18,10 +18,9 @@ El problema de esta práctica es verificar el principio de funcionamiento de un 
 
 A menudo conocido opamp por sus siglas en inglés (operational amplifier) es un dispositivo amplificador electrónico de alta ganancia acoplado en corriente continua que tiene dos entradas y una salida. En esta configuración, la salida del dispositivo es, generalmente, de cientos de miles de veces mayor que la diferencia de potencial entre sus entradas.
 
-
 Estructura: El símbolo de un amplificador es el mostrado en la siguiente figura:
 
-
+![](https://github.com/PabloGualotuna7/AMPLIFICADOR-OPERACIONAL./blob/master/img/5.png)
 
 Los terminales son:
 
@@ -41,11 +40,11 @@ Configuraciones básicas del amplificador operacional: Los amplificadores operac
 
 * Amplificador inversor: La configuración básica del AO. El amplificador inversor. En este circuito, la entrada (+) está a masa, y la señal se aplica a la entrada (-) a través de R1, con realimentación desde la salida a través de R2.
 
+![](https://github.com/PabloGualotuna7/AMPLIFICADOR-OPERACIONAL./blob/master/img/4.png)
 
+* Amplificador no inversor: En este circuito, la tensión Vi se aplica a la entrada (+), y una fracción de la señal de salida, Vo, se aplica a la entrada (-) a través del divisor de tensión R1 – R2. Puesto que, no fluye corriente de entrada en ningún terminal de entrada, y ya que Vd = 0, la tensión en R1 será igual a Vi.
 
-Amplificador no inversor: En este circuito, la tensión Vi se aplica a la entrada (+), y una fracción de la señal de salida, Vo, se aplica a la entrada (-) a través del divisor de tensión R1 – R2. Puesto que, no fluye corriente de entrada en ningún terminal de entrada, y ya que Vd = 0, la tensión en R1 será igual a Vi.
-
-
+![](https://github.com/PabloGualotuna7/AMPLIFICADOR-OPERACIONAL./blob/master/img/3.png)
 
 Los Amplificadores operacionales se pueden encontrar:
 
@@ -61,9 +60,7 @@ Características:
 
 Nota: Los valores reales dependen del modelo, estos valores son genéricos y son una referencia. Si van a usarse amplificadores operacionales, es mejor consultar el datasheet o características del fabricante.
 
-Análisis: Para analizar un circuito en el que haya A.O. puede usarse cualquier método, pero uno habitual es: 1. Comprobar si tiene realimentación negativa 2. Si tiene realimentación negativa se pueden aplicar las reglas del apartado anterior 3. Definir las corrientes en cada una de las ramas del circuito 4. Aplicar el método de los nodos en todos los nodos del circuito excepto en los de salida de los amplificadores (porque en principio no se puede saber la corriente que sale de ellos) 5. Aplicando las reglas del apartado 2 resolver las ecuaciones para despejar la tensión en los nodos donde no se conozca.
-
-
+Para analizar un circuito en el que haya A.O. puede usarse cualquier método, pero uno habitual es: 1. Comprobar si tiene realimentación negativa 2. Si tiene realimentación negativa se pueden aplicar las reglas del apartado anterior 3. Definir las corrientes en cada una de las ramas del circuito 4. Aplicar el método de los nodos en todos los nodos del circuito excepto en los de salida de los amplificadores (porque en principio no se puede saber la corriente que sale de ellos) 5. Aplicando las reglas del apartado 2 resolver las ecuaciones para despejar la tensión en los nodos donde no se conozca.
 
 ### 4. DIAGRAMAS
 
