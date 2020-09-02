@@ -22,17 +22,41 @@ Circuitos a analizar
 
 Figura 1.
 
-Circuitos realizados en Proteus
+Circuito 1 realizado en Proteus
 
-![](https://github.com/PabloGualotuna7/AMPLIFICADOR-OPERACIONAL./blob/master/img/Circuitos.jpg)
+![](https://github.com/PabloGualotuna7/AMPLIFICADOR-OPERACIONAL./blob/master/img/Circuito%201.png)
 
 Figura 2.
 
-Mediciones obtenidas en el osciloscopio
+Circuito 2 realizado en Proteus
 
-![](https://github.com/PabloGualotuna7/AMPLIFICADOR-OPERACIONAL./blob/master/img/Mediciones.png)
+![](https://github.com/PabloGualotuna7/AMPLIFICADOR-OPERACIONAL./blob/master/img/Circuito%202.png)
 
 Figura 3.
+
+Circuito 3 realizado en Proteus
+
+![](https://github.com/PabloGualotuna7/AMPLIFICADOR-OPERACIONAL./blob/master/img/Circuito%203.png)
+
+Figura 4.
+
+Medición del circuito 1 obtenido en el osciloscopio
+
+![](https://github.com/PabloGualotuna7/AMPLIFICADOR-OPERACIONAL./blob/master/img/Medida%20c1.png)
+
+Figura 5.
+
+Medición del circuito 2 obtenido en el osciloscopio
+
+![](https://github.com/PabloGualotuna7/AMPLIFICADOR-OPERACIONAL./blob/master/img/Medida%20c2.png)
+
+Figura 6.
+
+Medición del circuito 3 obtenido en el osciloscopio
+
+![](https://github.com/PabloGualotuna7/AMPLIFICADOR-OPERACIONAL./blob/master/img/Medida%20c3.png)
+
+Figura 7.
 
 ### 5. LISTAS DE COMPONENTES
 
@@ -47,15 +71,20 @@ Figura 3.
 ### 6. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
 Todas las caracteristicas de los circuitos que se analizaron son importante, puesto que, son las bases para para la completa fundamentación de la tecnología de los circuitos amplificadores operacionales. Los 5 que terios básicos que describen el amplificador y son fundamentales, y a partir de esto se desarrollan los 3 principales aximass de la teoría de los amplificadores operacionales los cuáles son:
+
 1.-La atención de entrada diferenciales nula. 
+
 2.-No existe flujo de corriente ninguno de los terminales de entrada. 
+
 3.-En bucle cerrado la entrada negativa será regulada al potencial entrada positiva o de refencia.
 
 * Pasos a seguir durante la practica:
 
 1.- Construir en el simulador cada uno de los circuitos de la figura 1. Muestre
 simultáneamente las señales de entrada y salida en un osciloscopio.
+
 2.- Determinar y analizar la relación entre las señales de entrada y salida en cada uno de los circuitos indicados en la figura 1.
+
 3.-Muestrar resultados gráficos.
 
 ### 7. ANALSIS DE RESULTADOS
@@ -96,27 +125,22 @@ En el circuito 3 se pueden observar que ambas ondas son senoidales, usando el si
 
 ##### 8.2 Investigue las características de amplificadores operacionales distintos a los utilizados en esta práctica.
 
-###### Amplificador Operacional No Inversor
-Este circuito es muy parecido al inversor, la diferencia es que la señal se introduce
-por el terminal no inversor, lo cual va a significar que la señal de salida estará en fase con la señal de entrada y amplificada. El análisis matemático será igual que en el montaje inversor. la ganancia de éste amplificador no puede ser menor que 1. la corriente de entrada al operacional es cero, por lo tanto I1 es igual a I2. tiene una ganancia en tensión Av = 1 + R1 / R2 . Esto quiere decir que la salida será Av veces la entrada, sin invertirse la señal ya que Av es positiva.
+##### Amplificador Operacional No Inversor
+Este circuito es muy parecido al inversor, la diferencia es que la señal se introduce por el terminal no inversor, lo cual va a significar que la señal de salida estará en fase con la señal de entrada y amplificada. El análisis matemático será igual que en el montaje inversor. la ganancia de éste amplificador no puede ser menor que 1. la corriente de entrada al operacional es cero, por lo tanto I1 es igual a I2. tiene una ganancia en tensión Av = 1 + R1 / R2 . Esto quiere decir que la salida será Av veces la entrada, sin invertirse la señal ya que Av es positiva.
 
-###### Amplificador Operacional Diferencial
-Este dispositivo nos permite obtener la derivada de la señal de entrada. En el caso
-general la tensión de entrada variará con el tiempo Vi=Vi(t). La principal diferencia que se observa en este circuito es la presencia de un condensador de capacidad constante C. Como se sabe la carga Q que almacena un condensador es proporcional a su capacidad C y a la diferencia de potencial V a la que estén sometidos las armaduras de éste (Q=CV). Es fácil entender que si la tensión varía con el tiempo y la capacidad del condensador es constante, la carga que éste almacena también variará con el tiempo, Q=Q(t).
+##### Amplificador Operacional Diferencial
+Este dispositivo nos permite obtener la derivada de la señal de entrada. En el caso general la tensión de entrada variará con el tiempo Vi=Vi(t). La principal diferencia que se observa en este circuito es la presencia de un condensador de capacidad constante C. Como se sabe la carga Q que almacena un condensador es proporcional a su capacidad C y a la diferencia de potencial V a la que estén sometidos las armaduras de éste (Q=CV). Es fácil entender que si la tensión varía con el tiempo y la capacidad del condensador es constante, la carga que éste almacena también variará con el tiempo, Q=Q(t).
 
-###### Amplificador Sumador No inversor
-Tiene múltiples entradas en el pin no inversor. Al igual que en un sumador inversor
-cada entrada tiene su propia impedancia de entrada que esta por el orden de 100 Mega
-Ohmios o más y solo hay una impedancia de salida que esta por el orden de mili Ohmios o
-menos.
+##### Amplificador Sumador No inversor
+Tiene múltiples entradas en el pin no inversor. Al igual que en un sumador inversor cada entrada tiene su propia impedancia de entrada que esta por el orden de 100 Mega
+Ohmios o más y solo hay una impedancia de salida que esta por el orden de mili Ohmios o menos.
 
-###### Amplificador Operacional Seguidor de Voltaje
-Este amplificador hace que la salida siga a la entrada, es decir el voltaje de salida es
-el mismo voltaje de entrada. Al presentar una alta impedancia de entrada (por el orden de Megas de Ohm o más), se garantiza una baja potencia de entrada, que a su vez garantiza que la señal de entrada no se distorsionara al conectarse al pin no inversor, y además que la señal de entrada quedara en su totalidad en la impedancia de entrada. Al presentar una muy baja impedancia de salida (por el orden de milis de Ohm) se garantiza que haya una transferencia total de potencia a la RL de salida. Por esta razón al Opamp seguidor también se le conoce como buffer y se usa para acoplar impedancias.
+##### Amplificador Operacional Seguidor de Voltaje
+Este amplificador hace que la salida siga a la entrada, es decir el voltaje de salida es el mismo voltaje de entrada. Al presentar una alta impedancia de entrada (por el orden de Megas de Ohm o más), se garantiza una baja potencia de entrada, que a su vez garantiza que la señal de entrada no se distorsionara al conectarse al pin no inversor, y además que la señal de entrada quedara en su totalidad en la impedancia de entrada. Al presentar una muy baja impedancia de salida (por el orden de milis de Ohm) se garantiza que haya una transferencia total de potencia a la RL de salida. Por esta razón al Opamp seguidor también se le conoce como buffer y se usa para acoplar impedancias.
 
 ##### 8.3 Investigue otras aplicaciones con circuitos más complejos que utilizan amplificadores operacionales.
 
-###### Amplificador de instrumentación
+##### Amplificador de instrumentación
 Este es un amplificador diferencial que consta de dos etapas, una etapa de entrada
 formada por dos amplificadores inversores, y una etapa de salida que es un amplificador
 diferencial. Resuelve todos los inconvenientes que se presenta en el amplificador
@@ -126,34 +150,27 @@ Esquema de un circuito con Amplificador de instrumentación.
 
 ![](https://github.com/PabloGualotuna7/AMPLIFICADOR OPERACIONAL./blob/master/img/Imagen%201.png)
 
-Figura 4.
+Figura 8.
 
 Dentro de este tipo de aplicaciones se puede encontrar los Amplificadores para Señales de Biopotenciales
 
 ### 9. CONCLUSIONES 
 
-* Un amplificador operacional actúa de diferente manera, dependiendo de los
-elementos a las cuales estén conectados, es decir, si existen elementos resistivos, la
-amplitud de la onda de salida aumenta, pero si está conectado un capacitor, entonces su
-amplitud cada vez será menor. También depende mucho del tipo de onda de entrada, ya que
+* Un amplificador operacional actúa de diferente manera, dependiendo de los elementos a las cuales estén conectados, es decir, si existen elementos resistivos, la
+amplitud de la onda de salida aumenta, pero si está conectado un capacitor, entonces su amplitud cada vez será menor. También depende mucho del tipo de onda de entrada, ya que
 se derivara o integrara la corriente de salida, en el caso de los cosenos, solo se desplazan 90º, por lo que solo se notara mejor en funciones lineales.
 
-* En la práctica, pudimos com'render el principio de funcionamiento de los amplificadores operacionales, con la ayuda de la fundamentación teorica, y de los data sheet de los amilificadores los cuales nos daban información sobre la distribución de
-los pines y ciertas características, como por ejemplo que los voltajes maximos que se puede aplicar es de 15V.
+* En la práctica, pudimos com'render el principio de funcionamiento de los amplificadores operacionales, con la ayuda de la fundamentación teorica, y de los data sheet de los amilificadores los cuales nos daban información sobre la distribución de los pines y ciertas características, como por ejemplo que los voltajes maximos que se puede aplicar es de 15V.
 
 * Llegamos a la conclusión que una de las utilidades basicas de los amlidicadores operacionales, son la de realizar operaciones matematicas en computadores analitícos, las características operativas, como por ejemplo, suma, resta, multiplicación, división, etc.
 
-* Comprendimos, que en los circuitos realizados con los amplificadores, la
-señal de entrada no puede ser igual a la señal de salida, esto quiere
-decir eue en el circuito existe alguna falla o que el amplificador esta
-averiado, ya que no esta cumpliendo su función operacional.
+* Comprendimos, que en los circuitos realizados con los amplificadores, la señal de entrada no puede ser igual a la señal de salida, esto quiere decir eue en el circuito existe alguna falla o que el amplificador esta averiado, ya que no esta cumpliendo su función operacional.
 
 ### 10. RECOMENDACIONES 
 
 * Se debe verificar que el amplificador operacional este polarizado, que este conectado de forma correcta.
 
-* Es fundamental revisar la hoja técnica de cada amplificador para verificar la función
-de cada pin, en este laboratorio se puede ver la importancia de esto.
+* Es fundamental revisar la hoja técnica de cada amplificador para verificar la función de cada pin, en este laboratorio se puede ver la importancia de esto.
 
 ### 11. CRONOGRAMA
 
