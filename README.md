@@ -62,6 +62,8 @@ Nota: Los valores reales dependen del modelo, estos valores son genéricos y son
 
 Para analizar un circuito en el que haya A.O. puede usarse cualquier método, pero uno habitual es: 1. Comprobar si tiene realimentación negativa 2. Si tiene realimentación negativa se pueden aplicar las reglas del apartado anterior 3. Definir las corrientes en cada una de las ramas del circuito 4. Aplicar el método de los nodos en todos los nodos del circuito excepto en los de salida de los amplificadores (porque en principio no se puede saber la corriente que sale de ellos) 5. Aplicando las reglas del apartado 2 resolver las ecuaciones para despejar la tensión en los nodos donde no se conozca.
 
+Comportamiento en corriente alterna (AC): En principio la ganancia calculada para continua puede ser aplicada para alterna, pero a partir de ciertas frecuencias aparecen limitaciones. (Ver sección de limitaciones) Un ejemplo de amplificador operacional es el 741op
+
 ### 4. DIAGRAMAS
 
 Circuitos a analizar
