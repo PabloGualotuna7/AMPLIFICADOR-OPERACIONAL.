@@ -222,6 +222,7 @@ se derivara o integrara la corriente de salida, en el caso de los cosenos, solo 
 
 * Es fundamental revisar la hoja técnica de cada amplificador para verificar la función de cada pin, en este laboratorio se puede ver la importancia de esto.
 
+* 
 ### 11. CRONOGRAMA
 
 Actividades desarrolladas a lo largo de la practica de laboratorio.
